@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Benim sitem</title>
+        <link rel="shortcut icon" href="resimlerim/icon.png"
+            type="image/x-icon">
+        <style>
+            .basliketiketi{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 58pt;
+                color: blue;
+            }
+        #benimlistem{
+            list-style-type: none;
+            margin-top: 100px;
+            margin-left: 100px;
+            line-height: 150%;
+        }
+
+        
+        #gorunmeyecek{
+            display: none;
+            color: blue;
+        }
+
+        #benimlistem:hover #gorunmeyecek { display: block; }
+            </style>
+    </head>
+    <body>
+        <ul id="benimlistem">
+            <li>portakal</li>
+            <li>
+                <ul id="gorunmeyecek">
+                    <li>turuncu</li>
+                    <li>çekirdekli olabilir</li>
+                    <li><ul>
+                            <li>sarı çekirdek</li>
+                            <li>turuncu çekirdek</li>
+                        </ul></li>
+                </ul>
+            </li>
+            <li>Mandelina</li>
+            <li>muz</li>
+        </ul>
+    </body>
+</html>

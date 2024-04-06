@@ -1,0 +1,33 @@
+h1{
+    font-size: 15pt;
+    color: blueviolet;
+}
+body{
+    margin: 0;
+}
+.menu{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.ortadakidiv{
+    background-color: red;
+}
+.govde{
+    font-size: 48pt;
+    color: #593E25;
+    
+}

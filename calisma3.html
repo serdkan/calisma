@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BENİM SİTEM</title>
+        <style>
+   .kutu{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    border: 15px inset lightgrey;
+     }
+     .kutu2
+     {
+      background-color: aqua;
+      border-radius: 100%;
+      width: 150px;
+      height: 150px;
+      animation-name: example;
+      animation-duration: 4s;
+      box-shadow: 10px 10px;
+      animation-direction: alternate;
+      animation-iteration-count:5;
+      animation-duration: 1s;
+      position: relative;
+     }
+     
+     @keyframes example {
+
+  100% {background-color:red; left:800px; top:0px;}
+
+}
+.raindrop {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid aqua; /* Yağmur damlası rengini buradan ayarlayabilirsiniz */
+  position: relative;
+}
+  </style>
+    </head>
+    <body>
+
+        <div class="kutu"></div>
+        <br>
+        <div class="kutu2"></div>
+        <br>
+        <div class="raindrop"></div>
+        <br>
+        <div class="raindrop kutu2"></div>
+        <p>HTML <abbr title="HyperText Markup Language">HTML</abbr> bir işaretleme dili standardıdır.</p>
+    </body>
+</html>
