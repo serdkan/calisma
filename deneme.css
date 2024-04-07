@@ -1,33 +1,36 @@
-h1{
-    font-size: 15pt;
-    color: blueviolet;
-}
 body{
-    margin: 0;
+    margin: 0px;
 }
-.menu{
+.mainheader{
+    width: 100%;
+    height: 80px;
+   text-align: right;
+   background-color: #FA7A96;
+}
+
+.icmenu{
     width: 200px;
-    height: 100px;
-    background-color: aqua;
-    text-align: center;
-    line-height: 100px;
+    height: 100%;
+    background-color: #FACEF2;
     display: inline-block;
-    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 80px;
+
 }
 a{
     text-decoration: none;
-    font-size: 20px;
+    color:#FA7AE3;
+}
+.sola{
+    float: left;
+}
+a:hover{
+    color:white;
 }
 
-.ortadakidiv{
-    background-color: red;
+.icmenu:hover{
+    background-color: #DD7AFA;
 }
-.govde{
-    font-size: 48pt;
-    color: #593E25;
-    
-}
-.logo {
-    width: 50px; /* Resmi logo konteynerine sığacak şekilde genişlet */
-
+.icmenu:hover a{
+    color: white;
 }
