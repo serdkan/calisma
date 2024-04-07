@@ -16,11 +16,7 @@ body{
 }
 a{
     text-decoration: none;
-}
-
-#logo{
-    width: 100px;
-    height: 100px;
+    font-size: 20px;
 }
 
 .ortadakidiv{
@@ -30,4 +26,8 @@ a{
     font-size: 48pt;
     color: #593E25;
     
+}
+.logo {
+    width: 50px; /* Resmi logo konteynerine sığacak şekilde genişlet */
+
 }
