@@ -1,0 +1,17 @@
+.body{
+    width: 100%;
+    height: 500px;
+    background-color: #F1C6D9;
+    border: 2px solid #C3D162;
+}
+
+.bodydiv{
+    width:450px;
+    height: 500px;
+    background-color: #C3D162;
+    display: inline-block;
+}
+.ensg{
+    width:300px;
+    background-color: #C3D162;
+}
