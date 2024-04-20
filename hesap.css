@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+}
+.item{
+    background-color: black;
+    color: white;
+
+}
+.input{
+    margin-left:250px;
+    margin-top:250px;
+}
+
+.item:hover{
+    background-color:maroon;
+    color: bisque;
+}
