@@ -1,90 +1,72 @@
 <html lang="tr">
-<head>
-    <title>Document</title>
-    <style>
+    <head>
+        <title>Document</title>
+        <style>
         body{
             margin: 0;
             padding: 0;
+            background-color: #333;
         }
-        .container{
-            background-color: #F23030;
-            width: 100%;
+        .container-menu{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            column-gap: 5px;
+        grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: #0D0D0D;
+        height: 80px;
+        line-height: 80px;
+        }
+      .logo{
+            background-image: url("resimlerim/yeni_logo.png");
+            background-repeat: no-repeat;
+            background-color: #0D0D0D;
+            background-position: center;
+      }
+      .menu-item{
+        font-size: 20px;
+        color: #36BFB1;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        cursor: pointer;
+      }
 
-         }
-         .item{ 
-            background-color: aqua;
-            font-size: 25px;
-            font-weight:900;
-            height: 100px;
-            text-align: center;
-            line-height: 90px;
-          }
-          .item:hover{
-            background-color: #F2CB05;
-            color:#F23030;
-          }
-         .item1{
-                background-color: #F2CB05;
-         }
-         
-         .item2{
-            background-color: #F29F05;
-        }
-        
-        .item3{
-            background-color: #F29F05;
-        }
-        
-        .item4{
-            background-color: #267365;
-        }
-        
-        .item5{
-            background-color: #267365;
-        }
-        .item6{
-            background-color: #267365;
-        }
-        .item7{
-            background-color: #267365;
-        }
-        .item8{
-            background-color: #267365;
-        }
-        .body-container{
-            display: grid;
-            grid-template-columns: 1fr 3fr 1fr;
-            background-color: #F29F05;
-            height: 500px;
-            margin-top: 2px;
-            border: 2px solid white;
-            column-gap: 1px;
-        }
+      .menu-item:hover{
+        color:#038C73;
+        background-color: #36BFB1;
+      }
+
+      .iletisim-header-container{
+        height: 250px;
+        text-align: center;
+      }
+      .iletisim-baslik-container{
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        color: #D96941;
+        margin-bottom: 50px;
+        margin-top: 50px;
+      }
+      .map-container{
+        text-align: center;
+      }
     </style>
-</head>
-<body>
-    
-    <div class="container"> 
-        <div class="item item1"><img src="resimlerim/yeni_logo.png"></img></div>
-        <div class="item item2"></div>
-        <div class="item item3"></div>
-        <div class="item item4">Ana Sayfa</div>
-        <div class="item item5">Urunler</div>
-        <div class="item item6">Hakkımızda</div>
-        <div class="item item7">Blog</div>
-        <div class="item item8">İletişim</div>
-    </div>
+    </head>
+    <body>
 
-    <div class="body-container">
-        <div class="bodyitem">Sol</div>
-        <div class="bodyitem">Orta</div>
-        <div class="bodyitem">Sağ</div>
+        <div class="container-menu">
+            <div class="logo"></div>
+            <div class="menu-item"><img src="resimlerim/phone-icon.png"></img>+90 554 468 97 18 </div>
+            <div class="menu-item">ANA SAYFA</div>
+            <div class="menu-item">ÜRÜNLER</div>
+            <div class="menu-item">HABERLER</div>
+            <div class="menu-item">İLETİŞİM</div>
+            <div class="menu-item">HAKKIMIZDA</div>
+        </div>
+        <div class="iletisim-header-container">
+          <img src="resimlerim/iletisim-header-foto.jpg"/ width="80%" height="250px">
+        </div>
+        <div class="iletisim-baslik-container">Bize Ulaşmak için lütfen formu doldurunuz veya telefon ediniz.</div>
 
-    </div>
-
-
-</body>
+        <div class="map-container"><img src="resimlerim/harita.jpg"/></div>
+    </body>
 </html>
