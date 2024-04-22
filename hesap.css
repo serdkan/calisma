@@ -11,14 +11,15 @@
 .item{
     background-color: black;
     color: white;
-
 }
 .input{
     margin-left:250px;
     margin-top:250px;
 }
-
 .item:hover{
     background-color:maroon;
     color: bisque;
+}
+.yazi{
+    font-size: 50px;
 }
